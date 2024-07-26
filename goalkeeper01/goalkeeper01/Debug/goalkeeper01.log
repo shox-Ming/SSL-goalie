@@ -1,0 +1,55 @@
+﻿生成启动时间为 2024/7/12 16:50:56。
+     1>项目“E:\VS2013\projects\goalkeeper01\goalkeeper01\goalkeeper01.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /IE:\VS2013\projects\goalkeeper01\goalkeeper01\worldmodel_lib /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GOALKEEPER01_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\utils\maths.cpp "源.cpp"
+         源.cpp
+         maths.cpp
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\vector.h(662): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(3): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(4): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(5): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(6): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(7): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(8): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(9): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(10): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(11): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(12): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(13): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(14): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(15): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(16): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(17): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(18): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(26): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(28): warning C4305: “-=”: 从“double”到“float”截断
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(30): warning C4305: “+=”: 从“double”到“float”截断
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(40): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(48): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(76): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(92): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\util.h(119): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+                 e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(59): 参见对正在编译的函数 模板 实例化“real angle_mod<num>(real)”的引用
+                 with
+                 [
+                     real=float
+         ,            num=float
+                 ]
+     1>e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\vector.h(513): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+                 e:\vs2013\projects\goalkeeper01\goalkeeper01\src\utils\maths.cpp(125): 参见对正在编译的函数 模板 实例化“vector Vector::point_on_segment<point2f>(const vector,const vector,const vector,bool)”的引用
+                 with
+                 [
+                     vector=point2f
+                 ]
+         正在生成代码...
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2013\projects\goalkeeper01\Debug\goalkeeper01.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\VS2013\projects\goalkeeper01\goalkeeper01\worldmodel_lib worldmodel_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VS2013\projects\goalkeeper01\Debug\goalkeeper01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2013\projects\goalkeeper01\Debug\goalkeeper01.lib" /MACHINE:X86 /DLL Debug\maths.obj
+         "Debug\源.obj"
+         goalkeeper01.vcxproj -> E:\VS2013\projects\goalkeeper01\Debug\goalkeeper01.dll
+     1>已完成生成项目“E:\VS2013\projects\goalkeeper01\goalkeeper01\goalkeeper01.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97
